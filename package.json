@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf build && mkdir build",
-    "build": "babel src -d build",
+    "build": "./node_modules/.bin/babel src -d build",
     "start": "node ./build/index.js"
   },
   "repository": {
