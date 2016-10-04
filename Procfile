@@ -1,1 +1,1 @@
-web: npm run clean && npm run build && nodemon build/
+worker: npm run clean && npm run build && node build/
